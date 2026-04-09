@@ -7,13 +7,11 @@ This project is a comprehensive **real-time streaming data engineering solution*
 <p align="center">
   <img src="https://github.com/Dharmil290998/End-to-End-Realtime-Data/blob/main/Data Architecture.png" width="800"/>
 </p>
----
 
 ## 📌 Project Overview
 
 The objective of this project is to build an **end-to-end data pipeline** that processes real-time ride confirmation events and integrates them with historical records and mapping data to create a production-ready **Star Schema** for analytics.
 
----
 
 ## 🏗️ Architecture & Tech Stack
 
@@ -32,7 +30,6 @@ The objective of this project is to build an **end-to-end data pipeline** that p
 * **Orchestration:**
   **Spark Declarative Pipelines (SDP)** (formerly Delta Live Tables) for automation, lineage, and schema management.
 
----
 
 ## 🔄 Data Pipeline (Medallion Architecture)
 
@@ -44,7 +41,6 @@ The objective of this project is to build an **end-to-end data pipeline** that p
   * Real-time events from Event Hubs
   * JSON mapping & historical data
 
----
 
 ### 🥈 Silver Layer (One Big Table - OBT)
 
@@ -55,7 +51,6 @@ The objective of this project is to build an **end-to-end data pipeline** that p
   * Metadata-driven design
   * Reusable and scalable transformations
 
----
 
 ### 🥇 Gold Layer (Analytics)
 
@@ -65,7 +60,6 @@ The objective of this project is to build an **end-to-end data pipeline** that p
   * 1 Fact Table
   * Multiple Dimension Tables (e.g., `dim_passenger`, `dim_driver`, `dim_location`)
 
----
 
 ## 🚀 Key Features & Learnings
 
@@ -88,7 +82,6 @@ The objective of this project is to build an **end-to-end data pipeline** that p
 * **Watermarking:**
   Handles **late-arriving data** in streaming pipelines
 
----
 
 ## ⚙️ How It Works
 
@@ -98,7 +91,6 @@ The objective of this project is to build an **end-to-end data pipeline** that p
 4. Data is transformed into a **Star Schema**
 5. Final data is stored in **ADLS Gen2** for analytics and reporting
 
----
 
 ## 📊 Outcome
 
@@ -106,4 +98,3 @@ The objective of this project is to build an **end-to-end data pipeline** that p
 * Enabled scalable and modular architecture
 * Delivered analytics-ready datasets for BI tools
 
----
