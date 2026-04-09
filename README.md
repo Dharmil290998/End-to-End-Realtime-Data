@@ -5,7 +5,7 @@
 This project is a comprehensive **real-time streaming data engineering solution** modeled after a **ride-booking system like Uber or Ola**. It demonstrates a modern Azure-based architecture to handle both **real-time events** and **historical bulk data** using the **Medallion Architecture**.
 
 <p align="center">
-  <img src="https://github.com/Dharmil290998/End-to-End-Realtime-Data/blob/main/Architecture.png" width="800"/>
+  <img src="https://github.com/Dharmil290998/End-to-End-Realtime-Data/blob/main/Data Architecture.png" width="800"/>
 </p>
 ---
 
